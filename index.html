@@ -2,11 +2,35 @@
   <head>
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
   </head>
+   <style>
+    .container {
+     position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 16px;
+}
+     .btn {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid #8b95e7;
+    border-radius: 2px;
+    color: white; /* White text */
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: 16px;
+}
+   </style>
+ 
   <body>
-    <a href="https://faerlou.github.io/ARGo/">
     <a-scene>
       <a-sky src="unost.jpg" scale="3 3 3" rotation="0 100 0"></a-sky>
     </a-scene>
-    </a>
+      <div class="container">
+    <form action="https://faerlou.github.io/ARGo/"><button class="btn">ВЫХОД</button></form></div>
   </body>
 </html>
